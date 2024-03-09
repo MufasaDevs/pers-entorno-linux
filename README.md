@@ -178,7 +178,7 @@ En el archivo `.zshrc` Creamos nuestros custom aliases:
 # -----------------------------------------------    
 # bat
    
-alias cat='bat'
+alias cat='/usr/bin/batcat'
 alias catn='bat --style=plain'    
 alias catnp='bat --style=plain --paging=never'
 
