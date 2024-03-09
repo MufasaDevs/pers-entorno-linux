@@ -142,7 +142,7 @@ ___
 ## Configurando zsh e instalando la Powerlevel10k
 
 Usamos: `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-`echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc` en el mismo comando. Y al usar `zsh` nos debería saltar el wizard de la Powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc` en el mismo comando. Y al usar `zsh` nos debería saltar el wizard de la Powerlevel10k
 
 Abrimos el .p10k.zsh con nano `nano ~/.p10k.zsh` y podemos comentar el right side para quitar iconos del lado derecho de la powerlevel y añadimos en el left-prompt-elements `context` `command_execution_time` `status` 
 
